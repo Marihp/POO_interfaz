@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cap3_18/Cap3_18.iml" filepath="$PROJECT_DIR$/Cap3_18/Cap3_18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cap3_19/Cap3_19.iml" filepath="$PROJECT_DIR$/Cap3_19/Cap3_19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cap4_7/Cap4_7.iml" filepath="$PROJECT_DIR$/Cap4_7/Cap4_7.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosInterfaz.iml" filepath="$PROJECT_DIR$/EjerciciosInterfaz.iml" />
     </modules>
   </component>
