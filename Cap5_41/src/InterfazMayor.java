@@ -3,16 +3,16 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.border.EmptyBorder;
 
-public class InterfazComparador extends JFrame implements ActionListener {
+public class InterfazMayor extends JFrame implements ActionListener {
     private JTextField valorAField;
     private JLabel valorALabel;
     private JTextField valorBField;
     private JLabel valorBLabel;
     private JButton calcularButton;
 
-    public InterfazComparador() {
+    public InterfazMayor() {
         // Configurar ventana
-        setTitle("Comparar dos valores");
+        setTitle("Encontrar el mayor");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 250);
         setLocationRelativeTo(null); // Ventana en el centro
@@ -26,7 +26,7 @@ public class InterfazComparador extends JFrame implements ActionListener {
         valorBField = new JTextField();
 
         // Crear boton de calcular
-        calcularButton = new JButton("Comparador");
+        calcularButton = new JButton("El mayor es ...");
         calcularButton.addActionListener(this);
 
         // Agregar etiquetas y campos de texto a la ventana
@@ -47,16 +47,15 @@ public class InterfazComparador extends JFrame implements ActionListener {
         double B = Double.parseDouble(valorBField.getText());
 
         // Crear objeto para comparar
-        Comparador comparador = new Comparador(A, B);
+        Mayor Mayor = new Mayor(A, B);
 
         // Mostrar mensaje en cuadro de dialogo
 
-        JOptionPane.showMessageDialog(this,
-                comparador.comparar());
+        JOptionPane.showMessageDialog(this, Mayor.encontrarMayor());
     }
 
     public static void main(String[] args) {
-        new InterfazComparador();
+        new InterfazMayor();
     }
 }
 

@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e81e29f1-bdd9-41c4-aad9-e6a55e851fba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cap4_7/Cap4_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_10/Cap4_10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_10/src/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_10/src/InterfazEstudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_22/Cap4_22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_22/src/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_22/src/InterfazEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_23/Cap4_23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_23/src/Ecuacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap4_23/src/InterfazEcuacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap5_40/Cap5_40.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap5_40/src/InterfazPotencias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap5_40/src/Potencias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap5_41/Cap5_41.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap5_41/src/InterfazMayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap5_41/src/Mayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parte2/Parte2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parte2/src/Figuras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cap3_18/src/Cap3_18/FormularioEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cap3_18/src/Cap3_18/FormularioEmpleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap3_19/src/InterfazTriangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cap3_19/src/InterfazTriangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap3_19/src/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cap3_19/src/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap4_7/src/Comparador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cap4_7/src/Comparador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cap4_7/src/InterfazComparador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cap4_7/src/InterfazComparador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +75,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Cap3_19/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Cap3_19/src" />
       <recent name="$PROJECT_DIR$/Cap3_18/src" />
     </key>
   </component>
@@ -86,6 +99,13 @@
       <workItem from="1681391661906" duration="3882000" />
       <workItem from="1681428881161" duration="713000" />
       <workItem from="1681429628205" duration="10000" />
+      <workItem from="1681429695446" duration="426000" />
+      <workItem from="1681430239208" duration="4965000" />
+      <workItem from="1681516928579" duration="3036000" />
+      <workItem from="1681572583522" duration="1299000" />
+      <workItem from="1681609513846" duration="1696000" />
+      <workItem from="1681655261405" duration="1359000" />
+      <workItem from="1681656667514" duration="3931000" />
     </task>
     <servers />
   </component>

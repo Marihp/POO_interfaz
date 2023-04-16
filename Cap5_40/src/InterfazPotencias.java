@@ -3,16 +3,16 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.border.EmptyBorder;
 
-public class InterfazComparador extends JFrame implements ActionListener {
+public class InterfazPotencias extends JFrame implements ActionListener {
     private JTextField valorAField;
     private JLabel valorALabel;
     private JTextField valorBField;
     private JLabel valorBLabel;
     private JButton calcularButton;
 
-    public InterfazComparador() {
+    public InterfazPotencias() {
         // Configurar ventana
-        setTitle("Comparar dos valores");
+        setTitle("Calcular potencias");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 250);
         setLocationRelativeTo(null); // Ventana en el centro
@@ -26,7 +26,7 @@ public class InterfazComparador extends JFrame implements ActionListener {
         valorBField = new JTextField();
 
         // Crear boton de calcular
-        calcularButton = new JButton("Comparador");
+        calcularButton = new JButton("Calcular");
         calcularButton.addActionListener(this);
 
         // Agregar etiquetas y campos de texto a la ventana
@@ -46,17 +46,26 @@ public class InterfazComparador extends JFrame implements ActionListener {
         double A = Double.parseDouble(valorAField.getText());
         double B = Double.parseDouble(valorBField.getText());
 
-        // Crear objeto para comparar
-        Comparador comparador = new Comparador(A, B);
+        // Crear objeto para calcular
+        Potencias potencias = new Potencias(A, B);
 
         // Mostrar mensaje en cuadro de dialogo
 
         JOptionPane.showMessageDialog(this,
-                comparador.comparar());
+                "El valor de la raiz cuadrada de A es: " +
+                Potencias.calcularRaiz(A) + "\n" +
+        "El valor del cuadrado de A es: " +
+                Potencias.calcularCuadrado(A) + "\n" +
+                "El valor del cubo de A es: " + Potencias.calcularCubo(A) +"\n"
+                + "\n" + "El valor de la raiz cuadrada de B es: " +
+                Potencias.calcularRaiz(B) + "\n" +
+                "El valor del cuadrado de B es: " +
+                Potencias.calcularCuadrado(B) + "\n" +
+                "El valor del cubo de B es: " + Potencias.calcularCubo(B));
     }
 
     public static void main(String[] args) {
-        new InterfazComparador();
+        new InterfazPotencias();
     }
 }
 

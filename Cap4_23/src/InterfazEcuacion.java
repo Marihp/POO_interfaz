@@ -3,16 +3,18 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.border.EmptyBorder;
 
-public class InterfazComparador extends JFrame implements ActionListener {
+public class InterfazEcuacion extends JFrame implements ActionListener {
     private JTextField valorAField;
     private JLabel valorALabel;
     private JTextField valorBField;
     private JLabel valorBLabel;
+    private JTextField valorCField;
+    private JLabel valorCLabel;
     private JButton calcularButton;
 
-    public InterfazComparador() {
+    public InterfazEcuacion() {
         // Configurar ventana
-        setTitle("Comparar dos valores");
+        setTitle("Encontrar soluciones ecuación");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 250);
         setLocationRelativeTo(null); // Ventana en el centro
@@ -24,9 +26,11 @@ public class InterfazComparador extends JFrame implements ActionListener {
         valorAField = new JTextField();
         valorBLabel = new JLabel("Ingrese el valor B:");
         valorBField = new JTextField();
+        valorCLabel = new JLabel("Ingrese el valor C:");
+        valorCField = new JTextField();
 
         // Crear boton de calcular
-        calcularButton = new JButton("Comparador");
+        calcularButton = new JButton("Encontrar soluciones");
         calcularButton.addActionListener(this);
 
         // Agregar etiquetas y campos de texto a la ventana
@@ -34,6 +38,8 @@ public class InterfazComparador extends JFrame implements ActionListener {
         add(valorAField);
         add(valorBLabel);
         add(valorBField);
+        add(valorCLabel);
+        add(valorCField);
         add(calcularButton);
 
         // Mostrar ventana
@@ -45,18 +51,18 @@ public class InterfazComparador extends JFrame implements ActionListener {
         // Obtener datos del formulario
         double A = Double.parseDouble(valorAField.getText());
         double B = Double.parseDouble(valorBField.getText());
+        double C = Double.parseDouble(valorCField.getText());
 
-        // Crear objeto para comparar
-        Comparador comparador = new Comparador(A, B);
+        // Crear ecuacion
+        Ecuacion ecuacion = new Ecuacion(A, B , C);
 
         // Mostrar mensaje en cuadro de dialogo
 
         JOptionPane.showMessageDialog(this,
-                comparador.comparar());
+                ecuacion.getSoluciones());
     }
 
     public static void main(String[] args) {
-        new InterfazComparador();
+        new InterfazEcuacion();
     }
 }
-
