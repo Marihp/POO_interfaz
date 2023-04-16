@@ -94,7 +94,7 @@ public class InterfazFiguras extends JFrame implements ActionListener {
                         "\n" +
                 "El área del triángulo es = "+ triangulo.calcularArea() + "\n" +
                 "El perímetro del triángulo es = " + triangulo.calcularPerimetro() + "\n" +
-                "Es un triángulo escaleno");
+                "Es un triángulo " + triangulo.determinarTipo());
     }
 
     public static void main(String[] args) {
